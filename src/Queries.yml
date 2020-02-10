@@ -2,6 +2,9 @@ List of queries and responses [General]
 Also outlines flow of conversation
 
 
+  Generate Greetings
+  Ask user what can they help with today
+  [Provide options for user to click]
 
 ++++++++
 
@@ -18,9 +21,6 @@ Asks user if solution is relevant to problem
 Bot asks if any other issue needs resolving
 
 - User responds negatively
-  Generate Greetings
-  Ask user what can they help with today
-  [Provide options for user to click]
 
 +++++++++
 

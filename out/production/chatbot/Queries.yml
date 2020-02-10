@@ -1,0 +1,45 @@
+List of queries and responses [General]
+Also outlines flow of conversation
+
+
+  Generate Greetings
+  Ask user what can they help with today
+  [Provide options for user to click]
+
+++++++++
+
+- User gives a response like "Im having issues starting this piece of software"
+
+Apologise for the issue
+Query database for issue
+Issue is easily findable within the database
+Serve up issue solution to user
+Asks user if solution is relevant to problem
+
+- User replies positively, saying issue has been fixed
+
+Bot asks if any other issue needs resolving
+
+- User responds negatively
+
++++++++++
+
+- User responds with 'I need help purchasing [something]'
+
+Offer user more information on purchasing
+Ask user if solution is sufficient
+
+- User responds negatively
+
+[Ask user if they wish to talk to human rep]
+Redirect user to representative
+
+++++++++
+
+- User responds with 'I can't [Do something]'
+
+Bot cannot find issue in database
+Redirects user to call center rep
+
++++++++++
+
