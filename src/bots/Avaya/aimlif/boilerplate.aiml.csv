@@ -1,0 +1,8 @@
+0,HI,*,*,<random>#Newline                <li>Hello!</li>#Newline                <li>Hi There! How can I help you today?</li>#Newline                <li>Hello! Are you having trouble with anything?</li>#Newline                <li>How are you? What can I help you with today?</li>#Newline                <li>Is there anything I can help you with?</li>#Newline            </random>,boilerplate.aiml
+0,HELLO,*,*,<srai>HI</srai>,boilerplate.aiml
+0,HELLO *,*,*,<srai>HI</srai>,boilerplate.aiml
+0,BYE,*,*,<random>#Newline                <li>Goodbye.</li>#Newline                <li>Thank you very much! Bye.</li>#Newline                <li>Goodbye! Glad to have helped you.</li>#Newline                <li>I hope we helped you as best we could.</li>#Newline                <li>Have a wonderful day.</li>#Newline            </random>,boilerplate.aiml
+0,GOODBYE,*,*,<srai>BYE</srai>,boilerplate.aiml
+0,GOODBYE *,*,*,<srai>BYE</srai>,boilerplate.aiml
+0,BYE *,*,*,<srai>BYE</srai>,boilerplate.aiml
+0,FAREWELL,*,*,<srai>BYE</srai>,boilerplate.aiml
