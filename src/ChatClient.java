@@ -141,4 +141,5 @@ public class ChatClient extends Thread implements ActionListener {
         // Resets text box
         textBox.setText("");
     }
+
 }

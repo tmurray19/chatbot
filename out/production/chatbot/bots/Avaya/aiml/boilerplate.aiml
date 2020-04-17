@@ -123,7 +123,7 @@
         <pattern> HELP </pattern>
         <template>
             <random>
-                <li>It seems you're having trouble with something. Can you describe your issue.</li>
+                <li>It seem's you're having trouble with something. Can you describe your issue.</li>
                 <li>I'm sorry to hear that. Please describe your issue in greater detail.</li>
                 <li>Let's see if we can help you. Please describe your issue in greater detail</li>
             </random>

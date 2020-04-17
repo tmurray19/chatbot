@@ -12,7 +12,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class ChatServer extends Thread implements ActionListener {
+public class ChatServer extends Thread  {
     // New instance of the bot interface
     AvayaAliceBot bot;
 
@@ -55,15 +55,8 @@ public class ChatServer extends Thread implements ActionListener {
         chatPanel.setBounds(0, 0, 500, 400);
         chatPanel.setLayout(new FlowLayout());
 
-        // TextBox panel may be defunct for server side
-        // We want to generate responses from bot
-        textBoxPanel = new JPanel();
-        textBoxPanel.setBounds(0, 400, 500, 100);
-        textBoxPanel.setLayout(new FlowLayout());
-
         // Add panels to JFrame
         serverWindow.add(chatPanel);
-        serverWindow.add(textBoxPanel);
 
         // Create text box to hold chat history
         chatTextArea = new JTextArea(24, 40);
@@ -117,13 +110,5 @@ public class ChatServer extends Thread implements ActionListener {
         }
     }
 
-    public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == sendButton) {
-            clientQuery = textBox.getText();
-            serverOut.println(clientQuery);
-            chatTextArea.setText(chatTextArea.getText() + dateFormat.format(new Date()) + " AvayaBot: " + clientQuery + "\n");
 
-        }
-        textBox.setText("");
-    }
 }
